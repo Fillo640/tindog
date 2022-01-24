@@ -11,3 +11,44 @@ h1, h2, h3, h4, h5, h6 {
     --main-color: #B983FF;
     --sec-color: #94B3FD;
   }
+.iconav{
+    color: var(--main-color)!important;
+}
+.titnav{
+    text-decoration: none;
+    color: var(--main-color)!important;
+    font-size: 40px;
+}
+.linknav{
+    text-decoration: none;
+    color: var(--main-color) !important;
+    font-size: 20px;
+}
+.titnav:hover{
+    color: var(--sec-color)!important;
+}
+.linknav:hover{
+    color: var(--sec-color)!important;
+}
+.navbar{
+    background-color: var(--sec-color)!important;
+}
+.immhead{
+    width: 20vw;
+    height: 70vh;
+    transform: rotate(20deg);
+}
+.firstcont{
+    background-color: var(--main-color);
+}
+.tithead{
+    font-size: 50px;
+}
+@media screen and (max-width:700px) {
+    .immhead{
+        width: 70vw;
+        height: 50vh;
+        transform: rotate(0deg);
+        margin-left: 40px;
+    }
+}
