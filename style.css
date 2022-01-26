@@ -8,8 +8,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Mochiy Pop P One', sans-serif;;
 }
 :root {
-    --main-color: #B983FF;
-    --sec-color: #94B3FD;
+    --main-color: #C0D8C0;
+    --sec-color: #F5EEDC;
   }
 .iconav{
     color: var(--main-color)!important;
@@ -25,10 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 .titnav:hover{
-    color: var(--sec-color)!important;
+    color: black!important;
 }
 .linknav:hover{
-    color: var(--sec-color)!important;
+    color: black!important;
 }
 .navbar{
     background-color: var(--sec-color)!important;
@@ -54,6 +54,28 @@ h1, h2, h3, h4, h5, h6 {
 .Pebbles{
     border-radius: 50%;   
     width: 10vw; 
+}
+.carosello{
+    height: 20vh!important;
+}
+.icface{
+    color: blue;
+}
+.icinsta{
+    color: red;
+}
+.iclinke{
+    color: blue;
+}
+footer{
+    background-color: var(--main-color);
+}
+@media screen and (max-width:700px) {
+    .carosello{
+        width: 50vw;
+        height: 20vh;
+       
+    }
 }
 @media screen and (max-width:700px) {
     .immhead{
