@@ -44,6 +44,17 @@ h1, h2, h3, h4, h5, h6 {
 .tithead{
     font-size: 50px;
 }
+.iconcine{
+    color: red;
+}
+.iconcine:hover{
+   
+    transform: scale(1.2);
+}
+.Pebbles{
+    border-radius: 50%;   
+    width: 10vw; 
+}
 @media screen and (max-width:700px) {
     .immhead{
         width: 70vw;
